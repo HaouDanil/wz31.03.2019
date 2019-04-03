@@ -92,7 +92,9 @@ h1::after{content:'';background-image:url(../img/beforeh1.png);width:68px;height
 .smotrna{font-size:32px;color:#ffffff;position:relative;display:inline-block;vertical-align:middle;text-transform:uppercase;}
 .smotrna::after{content:'';background-image:url(../img/lookatbef.png);width:42px;height:25px;display:inline-block;margin-left:10px;}
 .smotrna::before{content:'';background-image:url(../img/lookatbef.png);width:42px;height:25px;display:inline-block;margin-right:10px;}
-.bordered1{border:14px solid #ebb349;padding:12px;margin-top:35px;}
+.bordered1{border:14px solid #ebb349;padding:12px;margin-top:35px;width: 100%;}
+.youtube{width: 100%;}
+.title__center{text-align: center;}
 .blockttle{font-size:40px;color:#000000;text-transform:uppercase;}
 .blockm{margin-top:40px;margin-bottom:90px;}
 .blockttle::after{content:'';background-image:url(../img/lookatbef.png);width:42px;height:25px;display:inline-block;margin-left:10px;}
@@ -306,5 +308,3 @@ input.error{border-color:red!important;}
 @media (min-width:768px){.modal-dialog{width:700px;margin:10% auto;}
 }
 .navbar-default{border:none;background-color:#fff;}
-iframe{width: 100%;}
-.title__center{text-align: center;}
